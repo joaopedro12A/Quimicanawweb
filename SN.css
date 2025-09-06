@@ -100,3 +100,63 @@ nav ul li a:hover {
     font-size: 0.875rem;
     line-height: 1.4;
 }
+
+.redes-sociais {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    border-radius: 1rem;
+    margin: 3rem auto;
+    width: 80%;
+}
+
+.redes-sociais h2 {
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.icone a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.icone img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icone:hover img {
+    transform: scale(1.2) rotate(10deg);
+    box-shadow: 0 0 15px #f58529, 0 0 25px #dd2a7b, 0 0 35px #8134af;
+}
+
+.icone p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    text-shadow: 0 0 5px #fff;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.icone:hover p {
+    color: #fff;
+    text-shadow: 0 0 10px #f58529, 0 0 15px #dd2a7b, 0 0 20px #8134af;
+}
+
+
