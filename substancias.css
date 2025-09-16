@@ -70,7 +70,8 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 2.5rem;
-    gap: 1.875rem;
+    gap: 3rem;             /* alterado de 1.875rem para 3rem */
+    margin-inline: 18rem;
 }
 
 .bloco .texto {

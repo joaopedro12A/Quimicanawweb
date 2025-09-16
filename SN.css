@@ -159,4 +159,13 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #f58529, 0 0 15px #dd2a7b, 0 0 20px #8134af;
 }
 
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 2rem;
+  font-family: Chau Philomene One;
+}
+
+
 
