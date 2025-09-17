@@ -258,9 +258,23 @@ nav ul li a:hover {
     text-decoration: none; 
 }
 
-.imagem {
-    width: ;
+.botao-voltar {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #D633BA;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.5625rem;
+    color: white;
+    font-family: 'Chau Philomene One', sans-serif;
+    font-weight: 100;
+    font-size: 1.3125rem;
+    transition: background 0.3s ease;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
+.botao-voltar:hover {
+    background-color: #b52698;
+}
 
 
