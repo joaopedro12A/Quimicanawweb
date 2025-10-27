@@ -112,11 +112,11 @@ function finalizarQuiz() {
     medalhaImg.src = "Medalhas/medalha de ouro.png";
     mensagem.textContent = `Parabéns! Você acertou ${contadorAcertos}/${perguntas.length} questões.`;
   } else if (contadorAcertos === perguntas.length - 1) {
-    titulo.textContent = "Medalha de Prata!";
+    titulo.textContent = "Medalha de Ag!";
     medalhaImg.src = "Medalhas/medalha de prata.png";
     mensagem.textContent = `Muito bem! Você acertou ${contadorAcertos}/${perguntas.length} questões.`;
   } else if (contadorAcertos === perguntas.length - 2) {
-    titulo.textContent = "Medalha de Bronze!";
+    titulo.textContent = "Medalha de Cu + Zn!";
     medalhaImg.src = "Medalhas/medalha de bronze.png";
     mensagem.textContent = `Bom esforço! Você acertou ${contadorAcertos}/${perguntas.length} questões.`;
   } else {
